@@ -126,6 +126,7 @@ h1 a, h2 a{
   content:'';
   left: -22px;
   top: -1px;
+  background: url('../images/date.png')no-repeat;
 }
 
 

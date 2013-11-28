@@ -22,10 +22,12 @@
 
     <aside>
 
+    <img src="<?php echo site_url() ?>assets/images/calliope-logo.png" alt="<?php echo config('blog.title')?>" />
+
+<!-- // Uncomment to use title and description instead of an image
         <h1><a href="<?php echo site_url() ?>"><?php echo config('blog.title') ?></a></h1>
-
         <p class="description"><?php echo config('blog.description')?></p>
-
+-->
         <ul>
             <li><a href="<?php echo site_url() ?>">Home</a></li>
             <li><a href="<?php echo site_url() ?>">About</a></li>
